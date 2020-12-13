@@ -16,3 +16,27 @@ GG deprecation and incompatibility of minor versions
 Seemed to "just work" on Windows straight install without worrying about gvm.
 
 go get -u github.com/spf13/cobra/cobra
+
+
+
+
+https://sbstjn.com/blog/create-golang-cli-application-with-cobra-and-goxc/
+
+e.g.
+
+```sh
+$GOPATH/bin/goxc \
+  -bc="darwin,amd64" \
+  -pv=0.0.1 \
+  -d=build \
+  -build-ldflags "-X main.VERSION=0.0.1"
+```
+
+Set up makefile
+
+```sh
+
+make build
+make install
+
+```
