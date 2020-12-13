@@ -8,7 +8,7 @@
 .RECIPEPREFIX +=
 VERSION=0.0.2
 PATH_BUILD=build/
-FILE_COMMAND=heft
+FILE_COMMAND=go-start-disco
 FILE_ARCH=darwin_amd64
 
 clean:
