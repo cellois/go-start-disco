@@ -40,3 +40,7 @@ make build
 make install
 
 ```
+
+
+
+Should probably build build artefacts using gh-actions rather than in source repo for release
