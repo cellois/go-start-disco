@@ -1,3 +1,4 @@
+# Tabs are an enforced requirement for Makefile
 # Spaces workaround does not work
 # - WARNING: This only works with GNU Make <= 4.2 ?
 # e.g. macOS GNU Make 3.81
