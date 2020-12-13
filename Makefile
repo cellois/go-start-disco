@@ -1,3 +1,10 @@
+# Spaces workaround does not work
+# - WARNING: This only works with GNU Make <= 4.2 ?
+# e.g. macOS GNU Make 3.81
+# .RECIPEPREFIX += 
+# GNU Make >= 4.3
+# .RECIPEPREFIX := $(.RECIPEPREFIX)<space>
+.RECIPEPREFIX +=
 VERSION=0.0.2
 PATH_BUILD=build/
 FILE_COMMAND=heft
