@@ -6,7 +6,7 @@
 # GNU Make >= 4.3
 # .RECIPEPREFIX := $(.RECIPEPREFIX)<space>
 .RECIPEPREFIX +=
-VERSION=0.0.2
+VERSION=0.0.3
 PATH_BUILD=build/
 FILE_COMMAND=go-start-disco
 FILE_ARCH=darwin_amd64
